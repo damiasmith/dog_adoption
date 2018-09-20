@@ -11,7 +11,7 @@ Purple: 3E41A8;
 body {
     width: 75vpw; /* TODO: make 900 ?*/
     box-sizing: border-box;
-    margin: auto;
+  
 }
 
 nav {
@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.1vpw 2.2vpw;
+    padding: 1rem 2rem;
 
 }
 
@@ -37,12 +37,12 @@ nav {
     color: #FFFFFF;  /* white */
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
-    padding-left: 1.1vpw;
+    padding-left: 1rem;
 }
 
 header {
     color: #FFFFFF;  /* white */
-    padding: 44vpw 22vpw;
+    padding: 2rem 1rem;
     background-color: #2B57A1;  /* dark blue */
     display: flex;
     flex-direction: row-reverse;
@@ -53,15 +53,15 @@ header {
 }
 
 h1 {
-    font-size: 50vpw;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
-    line-height: 88vpw;
-    margin: 1vpw;
+    line-height: 1rem;
+    margin: 1rem;
 }
 
 .dog-showcase {
-    width: 9rem;
-    height: 9rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     background-color: #FFFFFF;
     border: 8px solid #537AD3;
@@ -69,15 +69,15 @@ h1 {
 
 .dog-showcase img {
     width: 6rem;
-    margin: -7rem 12vpw 0 12vpw;
+    margin: -1rem 3rem 0 1rem;
 }
 
 section {
-    padding: 20px 40px;
+    padding: 2rem 1rem;
 }
 
 h2 {
-    font-size: 33vpw;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -93,7 +93,6 @@ section h2 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .pup-wrapper {
@@ -104,7 +103,7 @@ section h2 {
 
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: none;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -184,12 +183,17 @@ footer {
 @media (min-width: 720px)  {
   html { background: green; }
 
-  .pups-container {
-      width: 60vpw;
-      margin: 0 10px;
+  .nav-links a {
+      color: #FFFFFF;  /* white */
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+    }
+
+      .pups-container {
       display: flex;
       justify-content: space-around;
-      align-items: flex-start;
+      align-items: center;
       flex-wrap: wrap;
   }
   .pup-wrapper {
@@ -199,7 +203,8 @@ footer {
       box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 
       display: flex;
-      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
       flex-wrap: wrap;
       overflow: hidden;
       margin-bottom: 20px;
@@ -210,6 +215,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
 }
 
 @media (min-width: 900px)  {
