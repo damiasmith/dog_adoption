@@ -12,30 +12,8 @@ html {
   font-size: 62.5%;
 }
 
-
 body {
     width: 75vpw; /* TODO: make 900 ?*/
-}
-
-@media (min-width: 360px)  {
-  html { background: blue; }
-
-
-nav {
-    background-color: #2B57A1;  /* dark blue */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-}
-
-
-.nav-links a {
-    color: #FFFFFF;  /* white */
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    display: none;
 }
 
 .logo {
@@ -43,72 +21,6 @@ nav {
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
     padding-left: 1rem;
-}
-
-header {
-    color: #FFFFFF;  /* white */
-    padding: 2rem 1rem;
-    background-color: #2B57A1;  /* dark blue */
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-}
-
-h1 {
-    font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
-    line-height: 3.5rem;
-    margin: 1rem;
-}
-
-.dog-showcase {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    border: 8px solid #537AD3;
-}
-
-.dog-showcase img {
-    width: 8rem;
-    margin: -1.5rem 4rem 0 1rem;
-}
-
-section {
-    padding: 2rem 1rem;
-}
-
-h2 {
-    font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-
-section h2 {
-    text-align: center;
-}
-
-.pups-container {
-    width: 75vpw;
-    margin: 0 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.pup-wrapper {
-    width: 200px;
-    height: 300px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    overflow: hidden;
-    margin-bottom: 20px;
 }
 
 .pup-pic {
@@ -168,13 +80,105 @@ section h2 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+@media (min-width: 360px)  {
+
+
+nav {
+    background-color: #2B57A1;  /* dark blue */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links a {
+    color: #FFFFFF;  /* white */
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: none;
+}
+
+.logo {
+    color: #FFFFFF;  /* white */
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 1rem;
+}
+
+header {
+    color: #FFFFFF;  /* white */
+    padding: 2rem 1rem;
+    background-color: #2B57A1;  /* dark blue */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3.5rem;
+    margin: 1rem;
+}
+
+.dog-showcase {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 8px solid #537AD3;
+}
+
+.dog-showcase img {
+    width: 12rem;
+    margin: -1.5rem 4rem 0 1rem;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.pups-container {
+    width: 85vpw;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: none;
+}
+
+.pup-wrapper {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
 footer {
     background-color: #2B57A1;  /* dark blue */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     color: #FFFFFF;
     font-family: 'Open Sans Condensed', sans-serif;
   }
@@ -182,7 +186,7 @@ footer {
 
 
 @media (min-width: 720px)  {
-  html { background: green; }
+
 
   nav {
       background-color: #2B57A1;  /* dark blue */
@@ -193,7 +197,6 @@ footer {
       font-size: 1.5rem;
   }
 
-
   .nav-links a {
       color: #FFFFFF;  /* white */
       text-decoration: none;
@@ -201,12 +204,6 @@ footer {
       font-weight: bold;
       display: inline;
       padding: 1rem;
-  }
-
-  .logo {
-    color: #FFFFFF;  /* white */
-    font-size: 30px;
-    font-family: 'Nunito', sans-serif;
   }
 
     header {
@@ -217,7 +214,6 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-
     }
 
     h1 {
@@ -269,80 +265,23 @@ footer {
       box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 
       display: flex;
+      flex-direction: column;
       overflow: hidden;
       margin-bottom: 2rem;
       margin-left: 6rem;
       margin-right: 6rem;
   }
 
-  .pup-pic {
-      width: 200px;
-      height: 200px;
-
-      background-size: cover;
-      background-position: center;
-      background-size: cover;
-      background-position: center;
-  }
-
-  #pup-1 {
-      border: 3px solid #1BBFAB;  /* green */
-  }
-
-  #pup-1 .pup-pic {
-      background-image: url('./images/pup_1.jpeg');
-  }
-
-  #pup-2 {
-      border: 3px solid #3E41A8;  /* purple */
-  }
-
-  #pup-2 .pup-pic {
-      background-image: url('./images/pup_2.webp');
-  }
-
-  #pup-3 {
-      border: 3px solid #7FBA49;  /* lime */
-  }
-
-  #pup-3 .pup-pic {
-      background-image: url('./images/cat_1.jpeg');
-  }
-
-  #pup-4 {
-      border: 3px solid #EFA03E;  /* orange */
-  }
-
-  #pup-4 .pup-pic {
-      background-image: url('./images/pup_4.jpg');
-  }
-
-  .pup-info {
-      padding: 10px 20px;
-  }
-
-  .pup-name {
-      font-family: 'Poppins', sans-serif;
-      font-weight: normal;
-      font-size: 18px;
-  }
-
-  .pup-byline,
-  .pup-location {
-      font-family: 'Open Sans Condensed', sans-serif;
-  }
-
-
   footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
+  }
 }
 
 @media (min-width: 900px)  {
-html { background: red; }
+
 
 nav {
     background-color: #2B57A1;  /* dark blue */
@@ -351,7 +290,6 @@ nav {
     align-items: center;
     padding: 1rem 2rem;
 }
-
 
 .nav-links a {
     color: #FFFFFF;  /* white */
@@ -410,7 +348,6 @@ section h2 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-
 }
 
 .pup-wrapper {
@@ -424,17 +361,6 @@ section h2 {
     margin-bottom: 2rem;
     margin-left: 1rem;
 }
-
-.pup-pic {
-    width: 200px;
-    height: 200px;
-
-    background-size: cover;
-    background-position: center;
-    background-size: cover;
-    background-position: center;
-}
-
 
 footer {
     background-color: #2B57A1;  /* dark blue */
