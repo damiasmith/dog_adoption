@@ -56,9 +56,9 @@ header {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
-    line-height: 3rem;
+    line-height: 3.5rem;
     margin: 1rem;
 }
 
@@ -80,7 +80,7 @@ section {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -190,6 +190,7 @@ footer {
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
+      font-size: 1.5rem;
   }
 
 
@@ -199,6 +200,13 @@ footer {
       font-family: 'Poppins', sans-serif;
       font-weight: bold;
       display: inline;
+      padding: 1rem;
+  }
+
+  .logo {
+    color: #FFFFFF;  /* white */
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
   }
 
     header {
@@ -228,7 +236,7 @@ footer {
     }
 
     .dog-showcase img {
-        width: 25rem;
+        width: 23rem;
         margin: -3rem 4rem 0 4rem;
     }
 
@@ -237,7 +245,7 @@ footer {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
     }
@@ -249,7 +257,7 @@ footer {
     .pups-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: center;
       align-items: stretch;
       flex-flow: row wrap;
 
@@ -263,6 +271,8 @@ footer {
       display: flex;
       overflow: hidden;
       margin-bottom: 2rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
   }
 
   .pup-pic {
@@ -349,6 +359,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     display: inline;
+    padding: 1rem;
 }
 
 header {
@@ -396,8 +407,8 @@ section h2 {
     width: 75vpw;
     margin: 0 1rem;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
 
 }
@@ -411,6 +422,7 @@ section h2 {
     flex-direction: row;
     overflow: hidden;
     margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 
 .pup-pic {
